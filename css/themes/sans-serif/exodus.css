@@ -1,0 +1,16 @@
+@import '../../fonts/sans-serif/Manrope.css';
+
+:root {
+	--font: 'Manrope', sans-serif;
+	--font-size: 1em;
+	--color: #222;
+	--bg: #fff;
+	--primary: #6c5ce7;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: #ccc;
+		--bg: #222;
+	}
+}

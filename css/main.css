@@ -1,0 +1,83 @@
+@import 'theme.css';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: var(--font-size) var(--font);
+	color: var(--color);
+	background: var(--bg);
+	padding: 10px 30px;
+	max-width: 800px;
+	margin: auto;
+	overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	color: var(--primary);
+}
+
+a {
+	border-bottom: 1px solid var(--primary);
+	text-decoration: none;
+}
+
+a:hover {
+	border: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+div {
+	padding: 0 30px;
+	border-left: 1px solid var(--primary);
+	margin: 20px 0;
+}
+
+div div {
+	padding: 10px 20px;
+	border: 1px solid var(--primary);
+}
+
+div div:nth-of-type(2n), div div:nth-of-type(2n) a {
+	color: var(--bg);
+	background: var(--primary);
+}
+
+div div:nth-of-type(2n) a {
+	border-bottom: 1px solid var(--bg);
+}
+
+div div:nth-of-type(2n) a:hover {
+	color: var(--primary);
+	background: var(--bg);
+	border: none;
+}
+
+code {
+	color: var(--primary);
+}
+
+::selection, a:hover {
+	color: var(--bg);
+	background: var(--primary);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--primary);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color);
+}

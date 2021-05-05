@@ -1,0 +1,16 @@
+@import '../../fonts/monospace/FiraCode.css';
+
+:root {
+	--font: 'FiraCode', monospace;
+	--font-size: 1em;
+	--color: #222;
+	--bg: #fff;
+	--primary: #ED4C67;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: #ccc;
+		--bg: #222;
+	}
+}
