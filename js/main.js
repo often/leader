@@ -1,4 +1,4 @@
-import posts from '/data/posts.js'
+import posts from '../data/posts.js'
 
 let div = document.querySelector('div')
 let search = new URLSearchParams(location.search)
