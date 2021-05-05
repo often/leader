@@ -132,9 +132,9 @@ you can contribute whatever you feel like, this includes: ideas, suggestions, th
 if I think it is worthy to be added, it of course will be!
 
 ## thanks
-[Mikhail Sharanda](https://github.com/sharanda) for creating the [Manrope font](https://github.com/sharanda/manrope) -- modern geometric sans-serif.
+[Mikhail Sharanda](https://github.com/sharanda) for creating the [Manrope font](https://github.com/sharanda/manrope) - modern geometric sans-serif.
 
-[Nikita Prokopov](https://github.com/tonsky) for creating the [Fira Code font](https://github.com/tonsky/FiraCode) -- free monospaced font with programming ligatures.
+[Nikita Prokopov](https://github.com/tonsky) for creating the [Fira Code font](https://github.com/tonsky/FiraCode) - free monospaced font with programming ligatures.
 
 [micromark](https://github.com/micromark) for creating [the smallest commonmark compliant markdown parser](https://github.com/micromark/micromark).
 
