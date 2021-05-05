@@ -10,7 +10,7 @@ if (posts[post]) import('https://jspm.dev/micromark')
 
 	if (!res.ok) {
 		alert(`${res.url}: ${res.statusText}`)
-		return location = '/'
+		return location = '.'
 	}
 
 	let body = await res.text()
@@ -19,7 +19,7 @@ if (posts[post]) import('https://jspm.dev/micromark')
 	div.innerHTML = micromark.default(body)
 
 	let a = document.createElement('a')
-	a.href = '/'
+	a.href = '.'
 	a.textContent = 'return home'
 
 	div.append(a)
