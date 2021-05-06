@@ -1,5 +1,5 @@
 # leader
-superior, intuitive and light blog base for the modern web.
+intuitive and light blog base for the modern web.
 
 ## why?
 why not?
