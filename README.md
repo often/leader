@@ -125,6 +125,16 @@ if you are looking for a great color scheme/palette website, check out these two
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Coolors](https://coolors.co/)
 
+## hosting
+
+since **leader** does not require a back-end, hosting it will not be tricky at all.
+
+there is dozens of ways to host a static website for entirely free, and it is all up on you.
+
+the most easy and quick possible way would probably be to use github pages. you can connect a custom domain, too.
+
+if you prefer to use a server of your own, the least you would require is a static file server.
+
 ## contributing
 
 you can contribute whatever you feel like, this includes: ideas, suggestions, themes, etc.
