@@ -5,7 +5,7 @@ let search = new URLSearchParams(location.search)
 let post = search.get('post')
 
 if (posts[post]) import('https://jspm.dev/micromark')
-.then(async micromark => {
+.then(async ({micromark}) => {
 	let res = await fetch(`data/posts/${post}.md`)
 
 	if (!res.ok) {
@@ -16,7 +16,7 @@ if (posts[post]) import('https://jspm.dev/micromark')
 	let body = await res.text()
 
 	document.title = posts[post].title
-	div.innerHTML = micromark.default(body)
+	div.innerHTML = micromark(body)
 
 	let a = document.createElement('a')
 	a.href = '.'
