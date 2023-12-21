@@ -95,7 +95,7 @@ it comes packed with four themes: **dragon**, **exodus**, **mint** and **rose**.
 
 see the [screenshots](screenshots) directory to have some sort of preview of each theme.
 
-you may also visit the [website](https://leader.sany.one) which uses the default theme.
+you may also visit the [website](https://often.github.io/leader/) which uses the default theme.
 
 all themes are located inside of the `css/themes` directory.
 
