@@ -4,7 +4,7 @@ let div = document.querySelector('div')
 let search = new URLSearchParams(location.search)
 let post = search.get('post')
 
-if (posts[post]) import('https://jspm.dev/micromark')
+if (posts[post]) import('https://esm.sh/micromark')
 .then(async ({micromark}) => {
 	let res = await fetch(`data/posts/${post}.md`)
 
