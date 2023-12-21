@@ -121,7 +121,7 @@ by the way, every existant **leader** theme respects the users `prefers-color-sc
 
 this is very easy and straightforward, perhaps requires a bit better understanding of how css works like. check out the already existant theme files to get a better understanding of how theming in **leader** works like.
 
-if you are looking for a great color scheme/palette website, check out these three:
+if you are looking for a great color scheme/palette generator website, check out these three:
 - [palette](https://github.com/often/palette)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Coolors](https://coolors.co/)
